@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <games>
+    <game name="Test!" tag="cheze and cans" tijd="320">
+      <Images>
+        <Image>cake</Image>
+      </Images>
+      <vids>
+        <vid>machine 333</vid>
+      </vids>
+      <about>
+        <line>dube block</line>
+      </about>
+      <devs>
+        <dev>Ignoring cube</dev>
+      </devs>
+      <arts>
+        <art>cubiod</art>
+      </arts>
+      <src>The sneezing pants</src>
+      <oth>the crying weezel</oth>
+      <ext>the backstabber</ext>
+    </game>
+  </games>
+</data>

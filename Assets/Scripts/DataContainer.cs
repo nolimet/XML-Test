@@ -4,37 +4,40 @@ using System.Collections.Generic;
 using System.Xml.Serialization;
 using System.IO;
 
-[XmlRoot("dataContainer"), System.Serializable]
+[XmlRoot("data"), System.Serializable]
 public class DataContainer
 {
-    [XmlArray("DataChunks"), XmlArrayItem("Data")]
+    [XmlArray("games"), XmlArrayItem("game")]
     public DataTest[] Test;
 
     public void Save(string path, string fileName)
     {
-        var serializer = new XmlSerializer(typeof(DataContainer));
-        Debug.Log(Path.Combine(Path.Combine(Application.dataPath, path), fileName));
+        string pathpoint= Path.Combine(Application.dataPath,path);
         try
         {
-            using (var stream = new FileStream(Path.Combine(Application.dataPath, path, fileName), FileMode.Create))
+        var serializer = new XmlSerializer(typeof(DataContainer));
+        
+        
+            if(!Directory.Exists(pathpoint))
+                System.IO.Directory.CreateDirectory(Path.Combine(Application.dataPath, path));
+
+            using (var stream = new FileStream(Path.Combine(Path.Combine(Application.dataPath, path), fileName), FileMode.Create))
             {
                 serializer.Serialize(stream, this);
             }
         }
         catch (IOException e)
         {
-            System.IO.Directory.CreateDirectory(Path.Combine(Application.dataPath, path));
-            using (var stream = new FileStream(Path.Combine(Path.Combine(Application.dataPath, path), fileName), FileMode.Create))
-            {
-                serializer.Serialize(stream, this);
-            }
+            Debug.LogException(e);
         }
     }
 
     public static DataContainer Load(string path, string fileName)
     {
         var serializer = new XmlSerializer(typeof(DataContainer));
-        using (var stream = new FileStream(Path.Combine(Path.Combine(Application.dataPath, path), fileName), FileMode.Open))
+        Debug.Log(Application.dataPath);
+        Debug.Log(Path.Combine(Application.dataPath + path, fileName));
+        using (var stream = new FileStream(Path.Combine(Application.dataPath + path, fileName), FileMode.Open))
         {
             return serializer.Deserialize(stream) as DataContainer;
         }

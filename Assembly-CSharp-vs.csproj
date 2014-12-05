@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{49877213-CFD7-FAEC-E778-750EA4D225EC}</ProjectGuid>
+	<ProjectGuid>{1CA7BCED-DCAF-9A9B-37A6-377457519176}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,6 +49,9 @@
      <Compile Include="Assets\Scripts\DataContainer.cs" />
      <Compile Include="Assets\Scripts\DataTest.cs" />
      <Compile Include="Assets\Scripts\XMLHandler.cs" />
+     <None Include="Assets\CEA\game.xml" />
+     <None Include="Assets\CEA\games_1.xml" />
+     <None Include="Assets\CEA\games.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
