@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--id has no caps Name can have caps
+	Type is 0=unity, 1=flase, 2=other <oth>url</oth>
+	<vid> for any youtube vidoe
+	
+	if there are less than 2 images copy them
+	because the slider does not work well with 2
+	-->
+<games>
+	<game id="pongU" name="Classic Pong" type="0" tag="Unity3d">
+		<images>
+			<image>img1</image>
+			<image>img2</image>
+			<image>img1</image>
+			<image>img2</image>
+			</images>
+		
+			<vids>
+			<vid>null</vid>
+			</vids>
+			
+			<about>
+			<line>Game made using Unity3d and C#.</line>
+			<line>The game is played locally in a 1vs1.</line>
+			</about>
+			<devs>
+			<dev>Jesse Stam</dev>
+			</devs>
+			
+			<arts>
+			<art>Jesse Stam</art>
+			</arts>
+			
+			<src>https://github.com/nolimet/Pong_2</src>
+			
+			<ext tijd="1 week" datum="06-2014">
+				Make pong in one week in any engine you like
+			</ext>
+	</game>
+	
+	<game id="teddy" name="Teddy" type="0" tag="Unity3d">
+	<images>
+		<image>menu</image>
+		<image>level1</image>
+		<image>level2</image>
+		<image>inGame1</image>
+		<image>inGame2</image>
+		</images>
+		
+		<vids>
+		<vid>0nUmA1aFTMg</vid>
+		</vids>
+		
+		<about>
+		<line>Teddy is made with Unity3d using C# and we used A* for the path finding of the enemies</line>
+		<line>This game was made late 2013</line>
+		</about>
+		
+		<devs>
+		<dev>Jesse Stam</dev>
+		<dev>Kevin Kroll</dev>
+		</devs>
+		
+		<arts>
+		<art>Tino Kort</art>
+		<art>Thushara Rus</art>
+		<art>Thomas Schrama</art>
+		<art>Iris van de Velden</art>
+		</arts>
+		
+		<src>https://github.com/nolimet/Teddy</src>
+		
+		<ext tijd="4 weeks" datum="12-2013">
+				Make a 2d Game in 4 weeks using Unity3d or AS3
+			</ext>
+	</game>
+	
+	<game id="clock" name="Clock" type="1" tag="flash">
+	<images>
+			<image>inClock</image>
+			<image>code</image>
+			<image>inClock</image>
+			<image>code</image>
+			</images>
+			
+			<vids>
+			<vid>null</vid>
+			</vids>
+			
+			<about>
+			<line>A clock made with AS3</line>
+			</about>
+			
+			<devs>
+			<dev>Jesse Stam</dev>
+			</devs>
+			
+			<arts>
+			<art>Jesse Stam</art>
+			</arts>
+			
+			<src>https://github.com/nolimet/Math-AS3/tree/master/src/opdrachten/ClockAnalog</src>
+			
+			<ext tijd="1 week" datum="2-2014">
+				Make a anlog clock using AS3
+			</ext>
+	</game>
+	
+	<game id="AudioVisu" name="Audio Visualiser" type="0" tag="Unity3d">
+	<images>
+			<image>code</image>
+			<image>inGame</image>
+			<image>code</image>
+			<image>inGame</image>
+			</images>
+			
+			<vids>
+			<vid>null</vid>
+			</vids>
+			
+			<about>
+			<line>An Audio visualer created using Unity3d</line>
+			<line>It runs on 30 updates per second. That way it runs smooth in a browser</line>
+			<line>It had a lot of reworks but this is the final solution I came up with. I created it using Unity3d and C#</line>
+			</about>
+			
+			<devs>
+			<dev>Jesse Stam</dev>
+			</devs>
+			
+			<arts>
+			<art>Jesse Stam</art>
+			</arts>
+			
+			<src>https://github.com/nolimet/RandomStuff/tree/master/Assets/Scripts/Audio</src>
+			
+			<ext tijd="2 months" datum="4-2014">
+				Private Project
+			</ext>
+	</game>
+	
+	<game id="eNet" name="Pull Based Network" type="0" tag="Unity3d">
+	<images>
+			<image>ingame1</image>
+			<image>ingame2</image>
+			<image>ingame3</image>
+		</images>
+		
+		<vids>
+			<vid>s0lp8E2UTwk</vid>
+			</vids>
+			
+			<about>
+			<line>An in space based Energy Relay Network. That works based on a pull of a point.</line>
+			<line>Meaning that it will always send to the highest pull. If 2 points have the same pull the sended power is devided by the number of points.</line>
+			<line>Created using C# and Unity3d</line>
+			</about>
+			
+			<devs>
+			<dev>Jesse Stam</dev>
+			</devs>
+			
+			<arts>
+			<art>Jesse Stam</art>
+			</arts>
+			<src>https://github.com/nolimet/RandomStuff/tree/master/Assets/srcipts/EnergyNet</src>
+			
+			<ext tijd="5 months" datum="2-2014">
+				Private Project
+			</ext>
+	</game>
+	
+	<game id="slime" name="Slime Busters" type="2" tag="Unity3d">
+	<images>
+			<image>menu</image>
+			<image>ingame</image>
+			<image>shop</image>
+			</images>
+			
+			<vids>
+			<vid>null</vid>
+			</vids>
+			
+			<about>
+			<line>A whack the mole inspired game.</line>
+			<line>The player has to hit slimes with different hammers</line>
+			<line>Created using C# and Unity3d</line>
+			</about>
+			
+			<devs>
+			<dev>Jesse Stam</dev>
+			<dev>Kit van de Bunt</dev>
+			</devs>
+			
+			<arts>
+			<art>Particles and Animator Artist - Maurits Vroom</art>
+			<art>Concept Artist - Paul van Lulling</art>
+			<art>Animator - Liza de Graaf</art>
+			<art>Background artist - Sharon Jansen</art>
+			<art>Lead Artist - Rens Kuilman</art>
+			</arts>
+			
+			
+			<src>https://github.com/nolimet/Slime-Busters</src>
+			
+			<oth>TBH</oth>
+
+			<ext tijd="3 months" datum="06-2014">
+				Finish the game called Slime Busters
+			</ext>
+	</game>
+	
+	<game id="moon" name="Moon Rabbit" type="2" tag="Unity3d">
+	<images>
+			<image>menu</image>
+			<image>inGame1</image>
+			<image>inGame2</image>
+			</images>
+			
+			<vids>
+			<vid>null</vid>
+			</vids>
+			
+			<about>
+			<line>A game that was made based on the myth of the Moon Rabbit</line>
+			<line>The game is played on an Andriod phone </line>
+			<line>Created using C# and Unity3d</line>
+			</about>
+			
+			<devs>
+			<dev>Jesse Stam</dev>
+			</devs>
+			
+			<arts>
+			<art>Maarten Kemp</art>
+			<art>Txai Pereira de Lacerda</art>
+			<art>Janno Kuijper</art>
+			</arts>
+			
+			<src>https://github.com/nolimet/mobileGame/tree/master</src>
+			
+			<oth>https://play.google.com/store/apps/details?id=com.group7.mobileGame</oth>
+			
+			<ext tijd="8 weeks" datum="4-2014">
+				Make a game for the google play store following a mythe
+			</ext>
+	</game>
+	
+	<game id="augment" name="What is a book" type="2" tag="Unity3d">
+	<images>
+			<image>page1</image>
+			<image>page2</image>
+			<image>page3</image>
+			</images>
+			
+			<vids>
+			<vid>null</vid>
+			</vids>
+			
+			</about>
+			<line>This an Augmented Reality story made </line>
+			<line>The game is played on an Andriod phone </line>
+			<line>Created using C# and Unity3d</line>
+			</about>
+			
+			<devs>
+			<dev>Jesse Stam</dev>
+			<dev>Tom Verkerk</dev>
+			</devs>
+			
+			<arts>
+			<art>Aaron Lighthart</art>
+			<art>Iris van de Velden</art>
+			<art>Lieske Timmermans</art>
+			</arts>
+			
+			<src>https://github.com/nolimet/GameLab</src>
+			
+			<oth>https://github.com/nolimet/GameLab/releases/tag/0.2</oth>
+			
+			<ext tijd="8 weeks" datum="4-2014">
+				Make something with a new technologie
+			</ext>
+	</game>	
+	
+	<game id="Pong" name="Pong" type="1" tag="flash">
+	<images>
+			<image>img1</image>
+			<image>img2</image>
+			<image>img3</image>
+		</images>
+		
+		<vids>
+			<vid>5tBgpCEC-mY</vid>
+			</vids>
+			
+			<about>
+			<line>A circular pong game. You don't move up or down.</line>
+			<line>But around the center of a pawned as a coy carper</line>
+			</about>
+			
+			<devs>
+			<dev>Jesse Stam</dev>
+			<dev>Kevin Breuken</dev>
+			</devs>
+			
+			<arts>
+			<art>Joppe Min</art>
+			<art>Thomas Schrama</art>
+			<art>Daniel Hoefsloot</art>
+			<art>Vince van den wijngaard</art>
+			</arts>
+			
+			<src>https://github.com/nolimet/Pong</src>
+			
+			<ext tijd="1 weeks" datum="06-2014">
+				Make a pong game Using flash action script 3
+			</ext>
+	</game>
+</games>
+
