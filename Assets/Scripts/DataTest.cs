@@ -49,6 +49,8 @@ public class DataTest {
         public string tijdAangewerkt;
         [XmlAttribute("datum")]
         public string datumProjectStart;
+        [XmlElement("opdr")]
+        public string opdracht;
         
     }
 }
