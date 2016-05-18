@@ -8,7 +8,7 @@ using System.IO;
 public class DataContainer
 {
     [XmlArray("games"), XmlArrayItem("game")]
-    public DataTest[] Test;
+    public XmlDataStructure[] Test;
 
     public void Save(string path, string fileName)
     {

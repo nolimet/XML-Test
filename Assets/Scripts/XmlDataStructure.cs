@@ -4,7 +4,7 @@ using System.Xml;
 using System.Xml.Serialization;
 
 [System.Serializable]
-public class DataTest {
+public class XmlDataStructure {
 
     public enum gameTypes{
         unity3d = 0,
