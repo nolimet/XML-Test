@@ -11,6 +11,8 @@ public class XmlDataStructure {
         flash = 1,
         other = 2
     }
+
+
     [XmlAttribute("name")]
     public string Name;
     [XmlAttribute("id")]
@@ -19,6 +21,11 @@ public class XmlDataStructure {
     public int type;
     [XmlAttribute("tag")]
     public string Tag;
+    [XmlAttribute("width", typeof(int))]
+    public int width = 900;
+    [XmlAttribute("height", typeof(int))]
+    public int height = 600;
+
     [XmlArray("images"), XmlArrayItem("image")]
     public string[] images;
     [XmlArray("vids"), XmlArrayItem("vid")]

@@ -1,57 +1,63 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <games>
-    <game name="Audio Visualiser" id="AudioVisu" type="0" tag="Unity3d-PC">
+    <game name="Stratego Multiplayer - flowMockup" id="StrategoMP" type="0" tag="Unity3d-Mobile" width="900" height="600">
       <images>
-        <image>code</image>
-        <image>inGame</image>
-        <image>code</image>
-        <image>inGame</image>
+        <image>img1</image>
+        <image>img2</image>
+        <image>img3</image>
+        <image>img4</image>
+        <image>img5</image>
+        <image>img6</image>
+        <image>img7</image>
+        <image>img8</image>
+        <image>img9</image>
+        <image>img10</image>
+        <image>img11</image>
+        <image>img12</image>
+        <image>img13</image>
+        <image>img14</image>
       </images>
-      <vids>
-        <vid>null</vid>
-      </vids>
-      <about>
-        <line>An Audio visualer created using Unity3d</line>
-        <line>It runs on 30 updates per second. That way it runs smooth in a browser</line>
-        <line>It had a lot of reworks but this is the final solution I came up with. I created it using Unity3d and C#</line>
-      </about>
-      <devs>
-        <dev>Jesse Stam</dev>
-      </devs>
-      <arts>
-        <art>Jesse Stam</art>
-      </arts>
-      <src>https://github.com/nolimet/RandomStuff/tree/master/Assets/Scripts/Audio</src>
-      <oth />
-      <ext tijd="2 months" datum="4-2014">
-        <opdr />
-      </ext>
-    </game>
-    <game name="BallGame" id="BallGame" type="4" tag="Unity3d-WebGL">
-      <images />
       <vids />
       <about>
-        <line>A game where you need to keep the ball in the air while aiming of the target.</line>
+        <line>A mockup for the new multiplayer version of stratego</line>
       </about>
       <devs>
-        <dev>Kerim Birlik</dev>
         <dev>Jesse Stam</dev>
-        <dev>Petar Dimitrov</dev>
       </devs>
       <arts>
-        <art>Angelina Mendes Duarte</art>
-        <art>Dejorden Moerman</art>
-        <art>Lieske Timmermans</art>
-        <art>Sharon Jansen</art>
+        <art>Mikel Bitter</art>
       </arts>
-      <src>https://github.com/pepi55/Proeve</src>
+      <src>https://github.com/nolimet/StrategoMPMokup</src>
       <oth>null</oth>
-      <ext tijd="8 Weeks" datum="31-3-2016">
-        <opdr>Make a Casual game where the core gameplay is most important</opdr>
+      <ext tijd="4 weeks" datum="03-2015">
+        <opdr>Create a prototype for the UI for Stratego multiplayer</opdr>
       </ext>
     </game>
-    <game name="Classic Pong" id="pongU" type="0" tag="Unity3d-PC">
+    <game name="Texas holdem Odds calculation app" id="OddsApp" type="2" tag="Unity3d-Mobile" width="900" height="600">
+      <images>
+        <image>img1</image>
+        <image>img2</image>
+        <image>img3</image>
+        <image>img4</image>
+      </images>
+      <vids />
+      <about>
+        <line>Odds Calculation app for Texas Holdem</line>
+      </about>
+      <devs>
+        <dev>Jesse Stam</dev>
+      </devs>
+      <arts>
+        <art>Mikel Bitter</art>
+      </arts>
+      <src>null</src>
+      <oth>https://play.google.com/store/apps/details?id=com.youdagames.oddscalculatorpoker</oth>
+      <ext tijd="16 weeks" datum="03-2015">
+        <opdr>Create a Texas holdem poker odds calculator</opdr>
+      </ext>
+    </game>
+    <game name="Classic Pong" id="pongU" type="0" tag="Unity3d-PC" width="900" height="600">
       <images>
         <image>img1</image>
         <image>img2</image>
@@ -74,35 +80,70 @@
       <src>https://github.com/nolimet/Pong_2</src>
       <oth />
       <ext tijd="1 week" datum="06-2014">
-        <opdr />
+        <opdr>Create a adaptation on pong</opdr>
       </ext>
     </game>
-    <game name="Clock" id="clock" type="1" tag="Flash">
+    <game name="Pong" id="Pong" type="1" tag="Flash" width="900" height="600">
       <images>
-        <image>inClock</image>
-        <image>code</image>
-        <image>inClock</image>
-        <image>code</image>
+        <image>img1</image>
+        <image>img2</image>
+        <image>img3</image>
+      </images>
+      <vids>
+        <vid>5tBgpCEC-mY</vid>
+      </vids>
+      <about>
+        <line>A circular pong game. You don't move up or down.</line>
+        <line>But around the center of a pawned as a coy carper</line>
+      </about>
+      <devs>
+        <dev>Jesse Stam</dev>
+        <dev>Kevin Breuken</dev>
+      </devs>
+      <arts>
+        <art>Joppe Min</art>
+        <art>Thomas Schrama</art>
+        <art>Daniel Hoefsloot</art>
+        <art>Vince van den wijngaard</art>
+      </arts>
+      <src>https://github.com/nolimet/Pong</src>
+      <oth />
+      <ext tijd="1 weeks" datum="06-2014">
+        <opdr>Create a version of pong</opdr>
+      </ext>
+    </game>
+    <game name="Slime Busters" id="slime" type="2" tag="Unity3d-Mobile" width="900" height="600">
+      <images>
+        <image>menu</image>
+        <image>ingame</image>
+        <image>shop</image>
       </images>
       <vids>
         <vid>null</vid>
       </vids>
       <about>
-        <line>A clock made with AS3</line>
+        <line>A whack the mole inspired game.</line>
+        <line>The player has to hit slimes with different hammers</line>
+        <line>Created using C# and Unity3d</line>
       </about>
       <devs>
         <dev>Jesse Stam</dev>
+        <dev>Kit van de Bunt</dev>
       </devs>
       <arts>
-        <art>Jesse Stam</art>
+        <art>Particles and Animator Artist - Maurits Vroom</art>
+        <art>Concept Artist - Paul van Lulling</art>
+        <art>Animator - Liza de Graaf</art>
+        <art>Background artist - Sharon Jansen</art>
+        <art>Lead Artist - Rens Kuilman</art>
       </arts>
-      <src>https://github.com/nolimet/Math-AS3/tree/master/src/opdrachten/ClockAnalog</src>
-      <oth />
-      <ext tijd="1 week" datum="2-2014">
+      <src>https://github.com/nolimet/Slime-Busters</src>
+      <oth>TBH</oth>
+      <ext tijd="3 months" datum="06-2014">
         <opdr />
       </ext>
     </game>
-    <game name="Liaka" id="Liaka" type="0" tag="Unity3d-Mobile">
+    <game name="Liaka" id="Liaka" type="0" tag="Unity3d-Mobile" width="900" height="600">
       <images>
         <image>img0</image>
         <image>img1</image>
@@ -141,7 +182,7 @@
         <opdr>Create a game during the period of the Internship</opdr>
       </ext>
     </game>
-    <game name="Maze Game" id="MazeGame" type="0" tag="hidden">
+    <game name="Maze Game" id="MazeGame" type="0" tag="hidden" width="900" height="600">
       <images>
         <image>img1</image>
         <image>img2</image>
@@ -164,157 +205,10 @@
       <src>https://github.com/nolimet/MazeProject</src>
       <oth />
       <ext tijd="8 weeks" datum="11-2014">
-        <opdr />
+        <opdr>Make a game. Assignmet was quite vage</opdr>
       </ext>
     </game>
-    <game name="Moon Rabbit" id="moon" type="2" tag="Unity3d-Mobile">
-      <images>
-        <image>menu</image>
-        <image>inGame1</image>
-        <image>inGame2</image>
-      </images>
-      <vids>
-        <vid>null</vid>
-      </vids>
-      <about>
-        <line>A game that was made based on the myth of the Moon Rabbit</line>
-        <line>The game is played on an Andriod phone </line>
-        <line>Created using C# and Unity3d</line>
-      </about>
-      <devs>
-        <dev>Jesse Stam</dev>
-      </devs>
-      <arts>
-        <art>Maarten Kemp</art>
-        <art>Txai Pereira de Lacerda</art>
-        <art>Janno Kuijper</art>
-      </arts>
-      <src>https://github.com/nolimet/mobileGame/tree/master</src>
-      <oth>https://play.google.com/store/apps/details?id=com.group7.mobileGame</oth>
-      <ext tijd="8 weeks" datum="4-2014">
-        <opdr />
-      </ext>
-    </game>
-    <game name="Pong" id="Pong" type="1" tag="Flash">
-      <images>
-        <image>img1</image>
-        <image>img2</image>
-        <image>img3</image>
-      </images>
-      <vids>
-        <vid>5tBgpCEC-mY</vid>
-      </vids>
-      <about>
-        <line>A circular pong game. You don't move up or down.</line>
-        <line>But around the center of a pawned as a coy carper</line>
-      </about>
-      <devs>
-        <dev>Jesse Stam</dev>
-        <dev>Kevin Breuken</dev>
-      </devs>
-      <arts>
-        <art>Joppe Min</art>
-        <art>Thomas Schrama</art>
-        <art>Daniel Hoefsloot</art>
-        <art>Vince van den wijngaard</art>
-      </arts>
-      <src>https://github.com/nolimet/Pong</src>
-      <oth />
-      <ext tijd="1 weeks" datum="06-2014">
-        <opdr />
-      </ext>
-    </game>
-    <game name="Pull Based Network" id="eNet" type="0" tag="Unity3d-PC">
-      <images>
-        <image>ingame1</image>
-        <image>ingame2</image>
-        <image>ingame3</image>
-      </images>
-      <vids>
-        <vid>s0lp8E2UTwk</vid>
-      </vids>
-      <about>
-        <line>An in space based Energy Relay Network. That works based on a pull of a point.</line>
-        <line>Meaning that it will always send to the highest pull. If 2 points have the same pull the sended power is devided by the number of points.</line>
-        <line>Created using C# and Unity3d</line>
-      </about>
-      <devs>
-        <dev>Jesse Stam</dev>
-      </devs>
-      <arts>
-        <art>Jesse Stam</art>
-      </arts>
-      <src>https://github.com/nolimet/RandomStuff/tree/master/Assets/srcipts/EnergyNet</src>
-      <oth />
-      <ext tijd="5 months" datum="2-2014">
-        <opdr />
-      </ext>
-    </game>
-    <game name="Slime Busters" id="slime" type="2" tag="Unity3d-Mobile">
-      <images>
-        <image>menu</image>
-        <image>ingame</image>
-        <image>shop</image>
-      </images>
-      <vids>
-        <vid>null</vid>
-      </vids>
-      <about>
-        <line>A whack the mole inspired game.</line>
-        <line>The player has to hit slimes with different hammers</line>
-        <line>Created using C# and Unity3d</line>
-      </about>
-      <devs>
-        <dev>Jesse Stam</dev>
-        <dev>Kit van de Bunt</dev>
-      </devs>
-      <arts>
-        <art>Particles and Animator Artist - Maurits Vroom</art>
-        <art>Concept Artist - Paul van Lulling</art>
-        <art>Animator - Liza de Graaf</art>
-        <art>Background artist - Sharon Jansen</art>
-        <art>Lead Artist - Rens Kuilman</art>
-      </arts>
-      <src>https://github.com/nolimet/Slime-Busters</src>
-      <oth>TBH</oth>
-      <ext tijd="3 months" datum="06-2014">
-        <opdr />
-      </ext>
-    </game>
-    <game name="Stratego Multiplayer - flowMockup" id="StrategoMP" type="0" tag="Unity3d-Mobile">
-      <images>
-        <image>img1</image>
-        <image>img2</image>
-        <image>img3</image>
-        <image>img4</image>
-        <image>img5</image>
-        <image>img6</image>
-        <image>img7</image>
-        <image>img8</image>
-        <image>img9</image>
-        <image>img10</image>
-        <image>img11</image>
-        <image>img12</image>
-        <image>img13</image>
-        <image>img14</image>
-      </images>
-      <vids />
-      <about>
-        <line>A mockup for the new multiplayer version of stratego</line>
-      </about>
-      <devs>
-        <dev>Jesse Stam</dev>
-      </devs>
-      <arts>
-        <art>Mikel Bitter</art>
-      </arts>
-      <src>https://github.com/nolimet/StrategoMPMokup</src>
-      <oth>null</oth>
-      <ext tijd="8 weeks" datum="03-2015">
-        <opdr />
-      </ext>
-    </game>
-    <game name="Teddy" id="teddy" type="0" tag="Unity3d-PC">
+    <game name="Teddy" id="teddy" type="0" tag="Unity3d-PC" width="900" height="600">
       <images>
         <image>menu</image>
         <image>level1</image>
@@ -345,30 +239,148 @@
         <opdr />
       </ext>
     </game>
-    <game name="Texas holdem Odds calculation app" id="OddsApp" type="2" tag="Unity3d-Mobile">
+    <game name="Clock" id="clock" type="1" tag="Flash" width="900" height="600">
       <images>
-        <image>img1</image>
-        <image>img2</image>
-        <image>img3</image>
-        <image>img4</image>
+        <image>inClock</image>
+        <image>code</image>
+        <image>inClock</image>
+        <image>code</image>
       </images>
-      <vids />
+      <vids>
+        <vid>null</vid>
+      </vids>
       <about>
-        <line>Odds Calculation app for Texas Holdem</line>
+        <line>A clock made with AS3</line>
       </about>
       <devs>
         <dev>Jesse Stam</dev>
       </devs>
       <arts>
-        <art>Mikel Bitter</art>
+        <art>Jesse Stam</art>
       </arts>
-      <src>null</src>
-      <oth>https://play.google.com/store/apps/details?id=com.youdagames.oddscalculatorpoker</oth>
-      <ext tijd="16 weeks" datum="03-2015">
-        <opdr />
+      <src>https://github.com/nolimet/Math-AS3/tree/master/src/opdrachten/ClockAnalog</src>
+      <oth />
+      <ext tijd="1 week" datum="2-2014">
+        <opdr>make a clock that displays time</opdr>
       </ext>
     </game>
-    <game name="What is a book" id="augment" type="2" tag="Unity3d-Mobile">
+    <game name="Pull Based Network" id="eNet" type="4" tag="Unity3d-WebGL" width="900" height="600">
+      <images>
+        <image>ingame1</image>
+        <image>ingame2</image>
+        <image>ingame3</image>
+      </images>
+      <vids>
+        <vid>s0lp8E2UTwk</vid>
+      </vids>
+      <about>
+        <line>An in space based Energy Relay Network. That works based on a pull of a point.</line>
+        <line>Meaning that it will always send to the highest pull. If 2 points have the same pull the sended power is devided by the number of points.</line>
+        <line>Created using C# and Unity3d</line>
+      </about>
+      <devs>
+        <dev>Jesse Stam</dev>
+      </devs>
+      <arts>
+        <art>Jesse Stam</art>
+      </arts>
+      <src>https://github.com/nolimet/RandomStuff/tree/master/Assets/srcipts/EnergyNet</src>
+      <oth />
+      <ext tijd="5 months" datum="2-2014">
+        <opdr>Spare time project</opdr>
+      </ext>
+    </game>
+    <game name="VivaMacho" id="BallGame" type="4" tag="Unity3d-WebGL" width="800" height="600">
+      <images>
+        <image>img0</image>
+        <image>img1</image>
+        <image>img2</image>
+        <image>img3</image>
+        <image>img4</image>
+        <image>img5</image>
+        <image>img6</image>
+        <image>img7</image>
+      </images>
+      <vids>
+        <vid>5fbprKDUcGs</vid>
+		<vid>dFo6dx-igLU</vid>
+      </vids>
+      <about>
+        <line>A game where you need to keep the ball in the air while aiming of the target.</line>
+      </about>
+      <devs>
+        <dev>Kerim Birlik</dev>
+        <dev>Jesse Stam</dev>
+        <dev>Petar Dimitrov</dev>
+      </devs>
+      <arts>
+        <art>Angelina Mendes Duarte</art>
+        <art>Dejorden Moerman</art>
+        <art>Lieske Timmermans</art>
+        <art>Sharon Jansen</art>
+      </arts>
+      <src>https://github.com/pepi55/Proeve</src>
+      <oth>null</oth>
+      <ext tijd="8 Weeks" datum="31-3-2016">
+        <opdr>Make a Casual game where the core gameplay is most important</opdr>
+      </ext>
+    </game>
+    <game name="Audio Visualiser" id="AudioVisu" type="0" tag="Unity3d-PC" width="900" height="600">
+      <images>
+        <image>code</image>
+        <image>inGame</image>
+        <image>code</image>
+        <image>inGame</image>
+      </images>
+      <vids>
+        <vid>null</vid>
+      </vids>
+      <about>
+        <line>An Audio visualer created using Unity3d</line>
+        <line>It runs on 30 updates per second. That way it runs smooth in a browser</line>
+        <line>It had a lot of reworks but this is the final solution I came up with. I created it using Unity3d and C#</line>
+      </about>
+      <devs>
+        <dev>Jesse Stam</dev>
+      </devs>
+      <arts>
+        <art>Jesse Stam</art>
+      </arts>
+      <src>https://github.com/nolimet/RandomStuff/tree/master/Assets/Scripts/Audio</src>
+      <oth />
+      <ext tijd="2 months" datum="4-2014">
+        <opdr>Spare time project</opdr>
+      </ext>
+    </game>
+    <game name="Moon Rabbit" id="moon" type="2" tag="Unity3d-Mobile" width="900" height="600">
+      <images>
+        <image>menu</image>
+        <image>inGame1</image>
+        <image>inGame2</image>
+      </images>
+      <vids>
+        <vid>null</vid>
+      </vids>
+      <about>
+        <line>A game that was made based on the myth of the Moon Rabbit</line>
+        <line>The game is played on an Andriod phone </line>
+        <line>Created using C# and Unity3d</line>
+      </about>
+      <devs>
+        <dev>Jesse Stam</dev>
+      </devs>
+      <arts>
+        <art>Maarten Kemp</art>
+        <art>Txai Pereira de Lacerda</art>
+        <art>Janno Kuijper</art>
+      </arts>
+      <src>https://github.com/nolimet/mobileGame/tree/master</src>
+      <oth>https://play.google.com/store/apps/details?id=com.group7.mobileGame</oth>
+      <ext tijd="8 weeks" datum="4-2014">
+        <opdr>Make a game based on a myth</opdr>
+      </ext>
+    </game>
+    <game name="What is a book" id="augment" type="2" tag="Unity3d-Mobile" width="900" height="600">
       <images>
         <image>page1</image>
         <image>page2</image>
@@ -394,7 +406,7 @@
       <src>https://github.com/nolimet/GameLab</src>
       <oth>https://github.com/nolimet/GameLab/releases/tag/0.2</oth>
       <ext tijd="8 weeks" datum="4-2014">
-        <opdr />
+        <opdr>Create a game or app that uses a new technologie</opdr>
       </ext>
     </game>
   </games>
